@@ -1,4 +1,4 @@
-from sparsepy.vector import svector, scvector
-from sparsepy.matrix import COO
-from sparsepy.matrix.COO import coo, ccoo
+from sparsepy.core import sarray
 from sparsepy import utils
+from sparsepy.matrix.COO import coo
+from sparsepy import linsys

@@ -1,1 +1,1 @@
-from sparsepy.utils import Vector, COO
+from sparsepy.utils import Array, Matrix
