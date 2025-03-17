@@ -132,7 +132,7 @@ class sarray:
         else:
             for i, v in zip(self.indice, self.values):
                 output += v*another[i]
-        return output
+        return float(output)
 
 
 class smatrix:

@@ -30,7 +30,7 @@ def power(svec:sarray, p:float)->sarray:
     return sarray(dim = svec.dim, indice = indice, values = values)
 
 def sum(svec:sarray)->float:
-    return np.sum(svec.values)
+    return float(np.sum(svec.values))
 
 def abs(svec:sarray)->sarray:
     indice = deepcopy(svec.indice)
@@ -39,4 +39,4 @@ def abs(svec:sarray)->sarray:
     return sarray(dim = svec.dim, indice = indice, values = values)
 
 def norm(svec:sarray, ord:int = 2)->float:
-    return np.linalg.norm(svec.values, ord)
+    return float(np.linalg.norm(svec.values, ord))
